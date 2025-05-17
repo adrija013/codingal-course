@@ -1,0 +1,51 @@
+body {
+    font-family: 'Arial', 'sans-serif';
+    background-color: black;
+    color:white;
+}
+h1 {
+    color:lightblue;
+}
+
+a{
+    color:lightgrey;
+    text-decoration:none;
+}
+
+a:hover {
+    color:aqua;
+}
+ul>li {
+    font-weight: bold;
+}
+
+h1+p{
+    background-color: black;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+ul li:hover {
+    color: blue;
+}
+
+<ul li:nth-child(3) {
+    background-color: grey;
+}
+
+p:not(:first-of-type) {
+    text-decoration: underline;
+}
+
+ul li::before {
+    content:"";
+}
+
+a::after{
+    content:"" ;
+}
+
+p::first-letter {
+    font-size: 200%;
+    color: pink;
+}
