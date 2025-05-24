@@ -1,0 +1,68 @@
+<!-- What is Bootstrap?
+
+- Bootstrap is a free and open-source CSS framework that helps developers design websites quickly without writing a lot of custom CSS and JavaScript.
+
+- It comes with ready-made styles, layouts, and components like buttons, grids, forms, and navigation bars.
+
+- Bootstrap makes websites responsive, meaning they adjust to different screen sizes (desktop, tablet, mobile).
+
+Why Use Bootstrap?
+
+1. Saves Time – You don’t have to write a lot of CSS from scratch.
+
+2. Responsive Design – Websites automatically fit on different devices.
+
+3. Pre-Styled Components – Includes ready-to-use buttons, cards, modals, etc.
+
+4. Easy to Use – Just add Bootstrap classes to your HTML elements.
+
+-->
+
+<!--https://getbootstrap.com/docs-->
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title>Bootstrap Grid System</title>
+
+<meta charset="utf-8"> <!-- It is the most widely used encoding because it supports characters from almost all languages-->
+
+<meta name="viewport" content="width=device-width, initial-scale=1"> <!--Makes the webpage responsive for mobile devices. Without this tag, websites may appear zoomed out or improperly sized on small screens.-->
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+<!--This loads Bootstrap’s CSS framework.-->
+
+<style>
+
+.column {
+
+text-align: center;
+
+border: 2px solid black;
+
+}
+
+</style>
+
+</head>
+
+<body>
+    <h3>Equal width column grid</h3>
+    <div class="container">
+    <div class="row">
+        <div class="column">
+            column 1
+        </div>
+        <div class="column">
+            column 2
+        </div>
+        <div class="column">
+            column 3
+        </div>
+    </div>
+</div>
+</body>
+</html>
