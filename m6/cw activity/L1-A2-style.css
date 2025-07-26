@@ -1,0 +1,18 @@
+body {
+    background: black;
+    font-family: "Baloo Tamma 2",cursive;
+    scroll-behavior: smooth;
+}
+.a-heading {
+    font-family: "Roboto Slab","serif";
+}
+.main-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("arm.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
