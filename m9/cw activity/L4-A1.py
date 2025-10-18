@@ -5,7 +5,7 @@ window.title('Tkinter sample window')
 window.geometry('300x300')
 
 greeting = Label(text="Hello user",fg='black',bg='white')
-button = Label(text="Click me",bg='black',fg='white')
+button = Button(text="Click me",bg='black',fg='white')
 entry = Entry(fg="yellow",bg="blue",width=100)
 
 greeting.pack()
