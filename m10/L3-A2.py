@@ -1,6 +1,6 @@
 def sum(n):
     return n+(n+1)/2
-
+sum()
 print("Space complexity:0(1)")
 
 def arraysum(a):
@@ -20,4 +20,4 @@ def summ(n):
     return n+ summ(n-1)
 
 print("Space complexity:0(n)")
-    
+summ()   
