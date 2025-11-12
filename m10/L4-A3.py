@@ -5,11 +5,11 @@ def romantoint(romanInput):
 
     for i in range(0, len(romanInput)-1):
         if roman[romanInput[i]] < [romanInput[i+1]]:
-           resultInteger -= [romanInput[i]]
+           resultInteger -= roman[romanInput[i]]
         else:
-          resultInteger += [romanInput[i]] 
+          resultInteger += roman[romanInput[i]] 
 
-    return resultInteger + [romanInput[-1]]  
+    return resultInteger + roman[romanInput[-1]]  
 
 roman = input("Input Roman numeral: ")   
 print("Integer equivalent : ",romantoint(roman))  
