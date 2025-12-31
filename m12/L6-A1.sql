@@ -41,8 +41,5 @@ SELECT * FROM nomnoms ORDER BY REVIEW DESC LIMIT 4;
 SELECT * FROM nomnoms;
 SELECT * FROM nomnoms LIMIT 5 OFFSET 2; 
 
-SELECT * FROM nomnoms;
-select * from nomnoms
-group by NEIGHBOURHOOD
-order by REVIEW;
+
 
