@@ -33,3 +33,8 @@ null_match = pd.read_sql("""SELECT *
                      WHERE Match_Winner IS NULL;""", conn)
 
 print(null_match)
+
+sum_match=pd.read_sql("""SELECT Team_1, Team_2, (Team_1 + Team_2) AS Sum_of_team1_team2
+                      FROM Match
+                      WHERE Match_Winner IS NULL""", conn)
+print(sum_match)
