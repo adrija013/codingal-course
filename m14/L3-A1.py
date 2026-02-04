@@ -11,6 +11,7 @@ def marks_line_chart():
     plt.xlabel("Student Names")
     plt.ylabel("Marks out of 50")
     plt.grid(True)
+    plt.ylim(0, 100)
     plt.tight_layout()
     plt.show()
 
